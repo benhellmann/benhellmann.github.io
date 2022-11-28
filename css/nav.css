@@ -1,5 +1,6 @@
-/*https://codepen.io/razitazi/pen/WbZaOq/*/
+/* adapted from https://codepen.io/razitazi/pen/WbZaOq/*/
 /* PUSH MENU */
+@media only screen and (max-width: 970px) {
 #menu {
     position: fixed;
     top: 0;
@@ -111,3 +112,6 @@ body.open button#menu-toggle:after {
 #mobile-logo {
 	display: flex;
 }
+}
+/* tablets and up */
+
