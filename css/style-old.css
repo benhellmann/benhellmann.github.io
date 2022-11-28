@@ -1,0 +1,145 @@
+* { padding: 0; margin: 0; }
+
+body {
+
+ color:#fff;
+}
+
+a {text-decoration: underline;}
+a img {border: none;}
+a, a:visited {color: #c00;}
+
+
+a.whitelink {text-decoration: none;}
+a.whitelink:link, a.whitelink:visited {color: #fff;}
+a.whitelink:hover {color: #09c;}
+
+
+/*#wrapper {margin: 0 auto; max-width: 978px; background: url(../images/background.gif) repeat-y 0 0;}*/
+/*#wrapper2 {width: 960px; margin: 0 9px 0 9px;}*/
+#content {background:#000; width: 960px;}
+#display {margin: 0 auto; width: 960px; height: 611px; background: url(../images/homeimage.jpg) no-repeat 0 0;}
+#display_inner {margin: 0 auto; width: 960px; min-height: 611px;}
+#display_inner_long {margin: 0 auto; width: 960px;}
+#inner_right_right {float:right; padding:23px 10px 10px 23px;}
+#inner_right {float:right; padding:23px 10px 10px 23px;}
+#inner_left {padding:23px 10px 10px 23px;}
+#inner_right_narrow {float:right; padding:23px 10px 10px 10px; width:160px;}
+
+/* BEGIN: content for main navigation */
+ul#nav {list-style: none; margin: 0; padding: 0;}
+#nav {height: 46px; position: relative; text-align: center; overflow: hidden;}
+#nav li {float: left; position: relative; left: 0; padding: 0 0 0 0;}
+
+li#nav_left_area {width: 15px; height: 46px; display: block; overflow: hidden;text-indent: -999em;}
+li#nav_right_area {background: url(../images/nav/scurvy_top.gif) no-repeat 0 0;width: 318px; height: 46px; display: block; overflow: hidden;text-indent: -999em;}
+
+a#nav_home {background: url(../images/nav/01home.gif) no-repeat 0 0; width: 74px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+li#nav_home_on {background: url(../images/nav/01home.gif) no-repeat 0 -92px; width: 74px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+a#nav_home:hover {background-position: 0 -46px;}
+
+a#nav_beer {background: url(../images/nav/02beer.gif) no-repeat 0 0; width: 62px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+li#nav_beer_on {background: url(../images/nav/02beer.gif) no-repeat 0 -92px; width: 62px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+a#nav_beer:hover {background-position: 0 -46px;}
+
+a#nav_booze {background: url(../images/nav/03booze.gif) no-repeat 0 0; width: 76px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+li#nav_booze_on {background: url(../images/nav/03booze.gif) no-repeat 0 -92px; width: 76px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+a#nav_booze:hover {background-position: 0 -46px;}
+
+a#nav_eats {background: url(../images/nav/04eats.gif) no-repeat 0 0; width: 58px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+li#nav_eats_on {background: url(../images/nav/04eats.gif) no-repeat 0 -92px; width: 58px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+a#nav_eats:hover {background-position: 0 -46px;}
+
+a#nav_noise {background: url(../images/nav/05noise.gif) no-repeat 0 0; width: 73px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+li#nav_noise_on {background: url(../images/nav/05noise.gif) no-repeat 0 -92px; width: 73px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+a#nav_noise:hover {background-position: 0 -46px;}
+
+a#nav_swag {background: url(../images/nav/06swag.gif) no-repeat 0 0; width: 69px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+li#nav_swag_on {background: url(../images/nav/06swag.gif) no-repeat 0 -92px; width: 69px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+a#nav_swag:hover {background-position: 0 -46px;}
+
+a#nav_pics {background: url(../images/nav/07pics.gif) no-repeat 0 0; width: 60px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+li#nav_pics_on {background: url(../images/nav/07pics.gif) no-repeat 0 -92px; width: 60px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+a#nav_pics:hover {background-position: 0 -46px;}
+
+a#nav_events {background: url(../images/nav/08events.gif) no-repeat 0 0; width: 84px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+li#nav_events_on {background: url(../images/nav/08events.gif) no-repeat 0 -92px; width: 84px; height: 46px; display: block; overflow: hidden; text-indent: -999em;}
+a#nav_events:hover {background-position: 0 -46px;}
+
+a#nav_faq {background: url(../images/nav/09faq.gif) no-repeat 0 0; width: 49px; height: 46px; margin-right:58px; display: block; overflow: hidden; text-indent: -999em;}
+li#nav_faq_on {background: url(../images/nav/09faq.gif) no-repeat 0 -92px; width: 49px; height: 46px; margin-right:58px; display: block; overflow: hidden; text-indent: -999em;}
+a#nav_faq:hover {background-position: 0 -46px;}
+/* END: content for main navigation */
+
+#right_column {float:right;}
+
+
+#yelp_area {background-image: url(../images/xxx.png); background-repeat: no-repeat; background-position: 0 0; width: 360px; height: 151px; position: relative; display:block;}
+
+ul#yelplist {list-style: none; margin: 0; padding: 0;}
+#yelplist {height: 170px; position: relative; text-align: center; overflow: hidden;}
+#yelplist li {float: right; position: relative; left: 0; padding: 0 0 0 0;}
+
+a#yelp_button {background: url(../images/yelp.png) no-repeat 0 0; width: 170px; height: 151px; display: block; overflow: hidden; text-indent: -999em;}
+a#yelp_button:hover {background-position: 0 -151px;}
+
+#social_area {height: 36px; position: relative; display:block; padding-bottom:10px;}
+
+ul#sociallist {list-style: none; margin: 0; padding: 6px 23px 0 0;}
+#sociallist {position: relative; text-align: center; overflow: hidden;}
+#sociallist li {float: right; position: relative; left: 0; padding: 0 0 0 0;}
+
+a#facebook_button {background: url(../images/facebook_icon.png) no-repeat 0 0; width: 32px; height: 32px; display: block; overflow: hidden; text-indent: -999em;}
+a#facebook_button:hover {background-position: 0 -32px;}
+a#ba_button {background: url(../images/beer_advocate_icon.png) no-repeat 0 0; width: 32px; height: 32px; display: block; overflow: hidden; text-indent: -999em;}
+a#ba_button:hover {background-position: 0 -32px;}
+a#rb_button {background: url(../images/rate_beer_icon.png) no-repeat 0 0; width: 32px; height: 32px; display: block; overflow: hidden; text-indent: -999em;}
+a#rb_button:hover {background-position: 0 -32px;}
+
+#hours {background-image: url(../images/hours.png); background-repeat: no-repeat; background-position: 0 0; width: 360px; height: 124px; position: relative; display:block; text-align: center; text-indent: -999em;}
+
+/*#hometext {background-image: url(../images/hometext.png); background-repeat: no-repeat; background-position: 0 0; width: 575px; height: 290px; position: relative; display:block; text-align: center; text-indent: -999em;}
+#home_message {background-image: url(../images/home_message.png); background-repeat: no-repeat; background-position: 0 0; width: 600px; height: 237px; position: relative; display:block; text-align: center; text-indent: -999em;}
+#home_message_off {width: 600px; height: 237px; position: relative; display:block; text-align: center; text-indent: -999em;}
+*/
+
+#new_shit {background-image: url(../images/new_shit.gif); background-repeat: no-repeat; background-position: 0 3px; margin-left: 22px; padding-top:3px;}
+ul#new_shitlist {list-style: none; margin: 0 0 0 75px; padding: 0;}
+
+#footer {clear:both; padding: 0 22px 0 22px;}
+#bottom_links {padding: 10px 0 10px 0; text-align:right;}
+h3#address {height: 24px; width: 960px; background-image: url(../images/address.gif); background-repeat: no-repeat; background-position: -22px 0; position: relative; text-align: center; text-indent: -999em;}
+#bottom {background: url(../images/bottom.gif) no-repeat 0 0; width: 976px; height: 18px; display: block; overflow: hidden;text-indent: -999em;}
+
+
+h3 {color:#c00;}
+h4 {color:#c00; padding: 0; font-size: 13px; font-weight: bold;}
+.white {color:#fff;}
+.red {color:#c00;}
+.right {float:right;}
+.left {float:left;}
+.leftpic {float:left; padding-right:10px;}
+.clear {clear:both;}
+
+hr {margin-bottom:8px;}
+iframe {margin-bottom:8px;}
+.noise {padding-right: 25px;}
+
+#inner_faq {width:600px; padding:23px 10px 10px 23px;}
+
+p {padding-bottom:8px;}
+p.back_to_top {padding-top: 12px; padding-bottom: 0px; margin-bottom: 12px; font-size: 10px; text-transform: uppercase;}
+.padding8 {padding-bottom:8px;}
+
+ul.normal_list { margin: 0 0 15px 18px; padding: 0;}
+
+ul.band_list { margin: 0 0 15px 38px; padding: 0; list-style-type:none;}
+
+
+ul.gallery {list-style:none; margin:0; padding:0;}
+ul.gallery li {float:left; position: relative;}
+li.gallery_row {width: 180px; padding-right: 5px;}
+
+.fancybox-wrap { top: 50px !important;}
+
+
