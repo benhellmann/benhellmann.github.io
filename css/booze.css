@@ -1,0 +1,36 @@
+main ul {
+	list-style-type: none;
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+/*tablets*/
+@media only screen and (min-width: 600px) {
+	main {
+		display: inline-flex;
+		flex-wrap:wrap;
+		flex-direction: row;
+		font-size: 13px
+	}
+	main div {
+		width: 50%
+	}
+	main div:nth-of-type(3) {
+		width: 100%
+	}
+}
+/*desktop*/
+@media only screen and (min-width: 970px) {
+	/*main div:nth-of-type(1) {
+		width: 140px
+	}
+	main div:nth-of-type(2) {
+		width: 200px
+	}
+	main div:nth-of-type(3) {
+		width: 200px
+	}*/
+	main div, main div:nth-of-type(3) {
+		width: 33.3%
+	}
+}
+@media only screen and (min-width: 992px) {}
