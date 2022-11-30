@@ -1,6 +1,6 @@
 /* adapted from https://codepen.io/razitazi/pen/WbZaOq/*/
 /* PUSH MENU */
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 600px) {
 #menu {
     position: fixed;
     top: 0;
