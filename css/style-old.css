@@ -17,17 +17,17 @@ a.whitelink:hover {color: #09c;}
 
 /*#wrapper {margin: 0 auto; max-width: 978px; background: url(../images/background.gif) repeat-y 0 0;}*/
 /*#wrapper2 {width: 960px; margin: 0 9px 0 9px;}*/
-#content {background:#000; width: 960px;}
+/*#content {background:#000; width: 960px;}
 #display {margin: 0 auto; width: 960px; height: 611px; background: url(../images/homeimage.jpg) no-repeat 0 0;}
 #display_inner {margin: 0 auto; width: 960px; min-height: 611px;}
 #display_inner_long {margin: 0 auto; width: 960px;}
 #inner_right_right {float:right; padding:23px 10px 10px 23px;}
 #inner_right {float:right; padding:23px 10px 10px 23px;}
 #inner_left {padding:23px 10px 10px 23px;}
-#inner_right_narrow {float:right; padding:23px 10px 10px 10px; width:160px;}
+#inner_right_narrow {float:right; padding:23px 10px 10px 10px; width:160px;}*/
 
 /* BEGIN: content for main navigation */
-ul#nav {list-style: none; margin: 0; padding: 0;}
+/*ul#nav {list-style: none; margin: 0; padding: 0;}
 #nav {height: 46px; position: relative; text-align: center; overflow: hidden;}
 #nav li {float: left; position: relative; left: 0; padding: 0 0 0 0;}
 
@@ -68,7 +68,7 @@ a#nav_events:hover {background-position: 0 -46px;}
 
 a#nav_faq {background: url(../images/nav/09faq.gif) no-repeat 0 0; width: 49px; height: 46px; margin-right:58px; display: block; overflow: hidden; text-indent: -999em;}
 li#nav_faq_on {background: url(../images/nav/09faq.gif) no-repeat 0 -92px; width: 49px; height: 46px; margin-right:58px; display: block; overflow: hidden; text-indent: -999em;}
-a#nav_faq:hover {background-position: 0 -46px;}
+a#nav_faq:hover {background-position: 0 -46px;}*/
 /* END: content for main navigation */
 
 #right_column {float:right;}
@@ -112,8 +112,8 @@ h3#address {height: 24px; width: 960px; background-image: url(../images/address.
 #bottom {background: url(../images/bottom.gif) no-repeat 0 0; width: 976px; height: 18px; display: block; overflow: hidden;text-indent: -999em;}
 
 
-h3 {color:#c00;}
-h4 {color:#c00; padding: 0; font-size: 13px; font-weight: bold;}
+h3, h4 {color:#c00;}
+
 .white {color:#fff;}
 .red {color:#c00;}
 .right {float:right;}
