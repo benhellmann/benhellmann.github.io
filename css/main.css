@@ -95,6 +95,10 @@ nav a.active {color: #f03}
 body {
   text-align: center;
 }
+main ul {
+  list-style-type: none;
+  padding: 0;
+}
 aside {font-weight: bold;}
 aside p {
   font-size: 2em;
@@ -255,10 +259,11 @@ aside .logo {
     grid-column-start: 1;
     grid-row-start: 2;
   }
+  main img {
+  max-width: 100%;
+  }
   aside {
     grid-column-start:2;
-
-
     grid-row-start: span 2;
   }
   aside {
