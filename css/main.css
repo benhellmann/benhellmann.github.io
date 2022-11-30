@@ -227,14 +227,17 @@ footer li {
 aside .logo {
   display: none;
 }
+@media only screen and (max-width: 600px) {
+    nav {
+    font-size: 5vw
+  }
+}
 
 @media only screen and (max-width: 970px) {
   #wrapper {
     max-width:calc(100vw - 10%);
   }
-  nav {
-    font-size: 5vw
-  }
+
 }
 
 @media only screen and (min-width: 600px) {

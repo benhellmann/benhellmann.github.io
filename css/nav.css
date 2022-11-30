@@ -63,15 +63,15 @@ header button:focus {
 #menu-toggle {
     position: relative;
 
-    width: 51px;
-    height: 51px;
+    width: 8vw;
+    height: 8vw;
 
     cursor: pointer;
 
     border: none;
-    -webkit-border-radius: 50px;
-       -moz-border-radius: 50px;
-            border-radius: 50px;
+    -webkit-border-radius: 8vw;
+       -moz-border-radius: 8vw;
+            border-radius: 8vw;
     background: #fff;
 }
 #menu-toggle:before,
@@ -89,18 +89,17 @@ header button:focus {
 }
 
 #menu-toggle:before {
-    top: 12px;
-    left: 25px;
+  top: 1vw;
+  left: 4vw;
+  width: 1px;
+  height: 6vw;
 
-    width: 1px;
-    height: 27px;
 }
 #menu-toggle:after {
-    top: 25px;
-    left: 12px;
-
-    width: 27px;
-    height: 1px;
+top: 4vw;
+left: 1vw;
+width: 6vw;
+height: 1px;
 }
 
 body.open button#menu-toggle:before,
