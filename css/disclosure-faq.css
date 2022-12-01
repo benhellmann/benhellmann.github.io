@@ -7,8 +7,9 @@ dl.faq button {
   border-radius: 5px;
   color:#c00;
   text-align: left;
+  display: flex;
 }
-
+dl.faq button b {margin-right: 1ex;}
 dl dd {
   margin: 0;
   padding: 0;
