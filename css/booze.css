@@ -9,7 +9,6 @@ main ul {
 		display: inline-flex;
 		flex-wrap:wrap;
 		flex-direction: row;
-		font-size: 13px
 	}
 	main div {
 		width: 50%

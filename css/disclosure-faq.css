@@ -1,7 +1,6 @@
 dl.faq button {
   margin: 0;
   padding: 4px 8px;
-  font-size: 110%;
   border: none;
   background-color: transparent;
   border-radius: 5px;
@@ -20,7 +19,6 @@ dl.faq .desc {
   margin: 0;
   margin-top: 0.25em;
   padding: 0.25em;
-  font-size: 110%;
   display: none;
 }
 

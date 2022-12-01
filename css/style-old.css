@@ -71,7 +71,7 @@ li#nav_faq_on {background: url(../images/nav/09faq.gif) no-repeat 0 -92px; width
 a#nav_faq:hover {background-position: 0 -46px;}*/
 /* END: content for main navigation */
 
-#right_column {float:right;}
+/*#right_column {float:right;}*/
 
 
 #yelp_area {background-image: url(../images/xxx.png); background-repeat: no-repeat; background-position: 0 0; width: 360px; height: 151px; position: relative; display:block;}
@@ -106,11 +106,11 @@ a#rb_button:hover {background-position: 0 -32px;}
 #new_shit {background-image: url(../images/new_shit.gif); background-repeat: no-repeat; background-position: 0 3px; margin-left: 22px; padding-top:3px;}
 ul#new_shitlist {list-style: none; margin: 0 0 0 75px; padding: 0;}
 
-#footer {clear:both; padding: 0 22px 0 22px;}
+/*#footer {clear:both; padding: 0 22px 0 22px;}
 #bottom_links {padding: 10px 0 10px 0; text-align:right;}
 h3#address {height: 24px; width: 960px; background-image: url(../images/address.gif); background-repeat: no-repeat; background-position: -22px 0; position: relative; text-align: center; text-indent: -999em;}
 #bottom {background: url(../images/bottom.gif) no-repeat 0 0; width: 976px; height: 18px; display: block; overflow: hidden;text-indent: -999em;}
-
+*/
 
 h3, h4 {color:#c00;}
 
@@ -123,12 +123,12 @@ h3, h4 {color:#c00;}
 
 hr {margin-bottom:8px;}
 iframe {margin-bottom:8px;}
-.noise {padding-right: 25px;}
+/*.noise {padding-right: 25px;}*/
 
-#inner_faq {width:600px; padding:23px 10px 10px 23px;}
+/*#inner_faq {width:600px; padding:23px 10px 10px 23px;}*/
 
 p {padding-bottom:8px;}
-p.back_to_top {padding-top: 12px; padding-bottom: 0px; margin-bottom: 12px; font-size: 10px; text-transform: uppercase;}
+p.back_to_top {padding-top: 12px; padding-bottom: 0px; margin-bottom: 12px; text-transform: uppercase;}
 .padding8 {padding-bottom:8px;}
 
 ul.normal_list { margin: 0 0 15px 18px; padding: 0;}

@@ -71,15 +71,15 @@ a:hover {color: #09c;}
 a, a:visited {color: #c00;}
   header #mobile-logo a {
     display: block;
-    width: calc(100vw - 120px);
-    margin-right: 20px;
+    width: 75vw;
+    margin-right: 5vw;
   }
   #mobile-logo {
     margin-bottom: 1em;
   }
 nav {
   font-family: 'Anton', serif;
-  font-size: 24px;
+/*  font-size: 24px;*/
   text-transform: lowercase;
   
 }
@@ -105,7 +105,7 @@ main ul {
 }
 aside {font-weight: bold;}
 aside p {
-  font-size: 2em;
+/*  font-size: 2em;*/
 }
 aside ul {
   list-style-type: none;
@@ -117,7 +117,7 @@ footer address {
   text-align: center;
   font-style: normal;
   font-weight: bold;
-  font-size: clamp(1em, 1vw, 1.8em);
+/*  font-size: clamp(1em, 1vw, 1.8em);*/
   font-family: 'Open Sans';
 }
 footer address a {
@@ -265,6 +265,7 @@ aside .logo {
   main {
     grid-column-start: 1;
     grid-row-start: 2;
+    font-size: 0.81rem;
   }
   main img {
   max-width: 100%;

@@ -11,18 +11,21 @@ main ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-
 }
 main > ul  {
 	font-weight: bold;
-
 }
+
 main > ul > li {
-	margin-bottom: 1em;
+	margin-bottom: 1ex;
 }
 @media only screen and (max-width: 600px) {
  	main > ul {font-size: 5vw;}
 }
+@media only screen and (min-width: 600px) {
+ 	main > ul:first-child {font-size: 0.9rem}
+}
+
 @media only screen and (min-width: 960px) {
 	background-size:100%
 }
