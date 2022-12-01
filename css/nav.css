@@ -5,7 +5,7 @@
     position: fixed;
     top: 0;
     left: -100vw;
-
+    z-index: 2;
     width: calc(100vw - 120px);
     height: 100%;
     padding: 50px 30px;
