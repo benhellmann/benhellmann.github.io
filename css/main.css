@@ -75,6 +75,9 @@ a, a:visited {color: #c00;}
     width: calc(100vw - 120px);
     margin-right: 20px;
   }
+  #mobile-logo {
+    margin-bottom: 1em;
+  }
 nav {
   font-family: 'Anton', serif;
   font-size: 24px;

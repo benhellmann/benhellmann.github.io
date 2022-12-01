@@ -1,0 +1,1 @@
+<?php $currentDate = date("n/j/y"); echo $currentDate; ?>
