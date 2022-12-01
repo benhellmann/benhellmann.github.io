@@ -18,8 +18,8 @@
          -o-transition: all .3s ease-in;
             transition: all .3s ease-in;
     text-align: center;
-
     background-color: #000;
+    font-size: 5vw
 }
 
 #menu nav {
@@ -29,7 +29,6 @@
 #menu nav a {
     display: block;
     line-height: 2em;
-
     -webkit-transition: all .3s ease;
        -moz-transition: all .3s ease;
          -o-transition: all .3s ease;
@@ -62,12 +61,9 @@ header button:focus {
 }
 #menu-toggle {
     position: relative;
-
     width: 8vw;
     height: 8vw;
-
     cursor: pointer;
-
     border: none;
     -webkit-border-radius: 8vw;
        -moz-border-radius: 8vw;
@@ -77,7 +73,6 @@ header button:focus {
 #menu-toggle:before,
 #menu-toggle:after {
     position: absolute;
-
     content: "";
     content: "";
     -webkit-transition: all .5s ease;
@@ -113,4 +108,19 @@ body.open button#menu-toggle:after {
 }
 }
 /* tablets and up */
-
+@media only screen and (min-width: 600px) {
+    #menu nav {
+        font-size: 2.5vw
+    }
+    #menu nav a {
+      margin-right: 0.5ex;
+    }
+    #menu nav a:last-child {
+      margin-right: 0
+    }
+}
+@media only screen and (min-width: 970px) {
+#menu nav {
+    font-size: 1.5rem
+}
+}

@@ -79,9 +79,7 @@ a, a:visited {color: #c00;}
   }
 nav {
   font-family: 'Anton', serif;
-/*  font-size: 24px;*/
   text-transform: lowercase;
-  
 }
 nav a, nav a:visited {
   text-decoration: none;
@@ -89,7 +87,6 @@ nav a, nav a:visited {
 }
 nav a:hover {
   color: #09c;
-
 }
 nav a:active, nav a.active {
   color: #c00;
@@ -104,9 +101,6 @@ main ul {
   padding: 0;
 }
 aside {font-weight: bold;}
-aside p {
-/*  font-size: 2em;*/
-}
 aside ul {
   list-style-type: none;
   margin: 0;
@@ -231,19 +225,12 @@ footer li {
 aside .logo {
   display: none;
 }
-@media only screen and (max-width: 600px) {
-    nav {
-    font-size: 5vw
-  }
-}
-
 @media only screen and (max-width: 970px) {
   #wrapper {
     max-width:calc(100vw - 10%);
   }
 
 }
-
 @media only screen and (min-width: 600px) {
   #wrapper {
     display: grid;
@@ -257,8 +244,7 @@ aside .logo {
   header {
     margin-bottom: 18px
   }
-  header button {display: none;}
-  header #mobile-logo a {
+  header #mobile-logo {
     display: none
   }
   nav + nav {display: none;}
