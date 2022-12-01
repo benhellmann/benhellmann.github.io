@@ -115,6 +115,36 @@ aside ul {
   font-weight: 700;
   font-size: 1.2rem;
 }
+#yelp_link {
+  background: url(../images/yelp_2.png) 0 0 no-repeat;
+  display: block;
+  max-width: 50%;
+  background-size: contain;
+}
+#yelp_link:hover img {
+  opacity: 0;transition-duration: 500ms;
+}
+#social_area {
+  display: flex;
+  margin-top: 10px;
+}
+#social_area a {
+  margin-left: 10px;
+}
+#social_area img {
+  height: 25px;
+}
+#social_area a:first-child img {
+  max-height: 23px;
+}
+#social_area a:nth-child(2) img {
+  height: auto;
+  max-height: 25px;
+}
+#social_area a:hover img {
+  transform: translate(0, -5px);
+  transition-duration: 250ms;
+}
 footer {}
 footer address {
   text-align: center;
