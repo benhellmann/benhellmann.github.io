@@ -18,8 +18,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/nav.css">
-    <!-- <link rel="stylesheet" href="css/events.css"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,400;0,800;1,400;1,800&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <meta name="theme-color" content="#ffffff">
   </head>
     <body id="beer">
