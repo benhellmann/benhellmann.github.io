@@ -120,6 +120,7 @@ aside ul {
   display: block;
   max-width: 50%;
   background-size: contain;
+  margin-right: -18px;
 }
 #yelp_link:hover img {
   opacity: 0;transition-duration: 500ms;
@@ -308,7 +309,8 @@ aside .logo {
   }
   aside .logo {
     display: block;
-    width: clamp(20vw, 100%, 318px)
+    width: clamp(20vw, 100%, 318px);
+    margin-bottom: 100px
   }
   aside p {
     font-size: 3vw
