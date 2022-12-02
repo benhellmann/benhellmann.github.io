@@ -74,18 +74,18 @@ a#nav_faq:hover {background-position: 0 -46px;}*/
 /*#right_column {float:right;}*/
 
 
-#yelp_area {background-image: url(../images/xxx.png); background-repeat: no-repeat; background-position: 0 0; width: 360px; height: 151px; position: relative; display:block;}
+/*#yelp_area {background-image: url(../images/xxx.png); background-repeat: no-repeat; background-position: 0 0; width: 360px; height: 151px; position: relative; display:block;}
 
 ul#yelplist {list-style: none; margin: 0; padding: 0;}
 #yelplist {height: 170px; position: relative; text-align: center; overflow: hidden;}
-#yelplist li {float: right; position: relative; left: 0; padding: 0 0 0 0;}
+#yelplist li {float: right; position: relative; left: 0; padding: 0 0 0 0;}*/
 
 /*a#yelp_button {background: url(../images/yelp.png) no-repeat 0 0; width: 170px; height: 151px; display: block; overflow: hidden; text-indent: -999em;}
 a#yelp_button:hover {background-position: 0 -151px;}*/
 
 /*#social_area {height: 36px; position: relative; display:block; padding-bottom:10px;}*/
 
-ul#sociallist {list-style: none; margin: 0; padding: 6px 23px 0 0;}
+/*ul#sociallist {list-style: none; margin: 0; padding: 6px 23px 0 0;}
 #sociallist {position: relative; text-align: center; overflow: hidden;}
 #sociallist li {float: right; position: relative; left: 0; padding: 0 0 0 0;}
 
@@ -94,7 +94,7 @@ a#facebook_button:hover {background-position: 0 -32px;}
 a#ba_button {background: url(../images/beer_advocate_icon.png) no-repeat 0 0; width: 32px; height: 32px; display: block; overflow: hidden; text-indent: -999em;}
 a#ba_button:hover {background-position: 0 -32px;}
 a#rb_button {background: url(../images/rate_beer_icon.png) no-repeat 0 0; width: 32px; height: 32px; display: block; overflow: hidden; text-indent: -999em;}
-a#rb_button:hover {background-position: 0 -32px;}
+a#rb_button:hover {background-position: 0 -32px;}*/
 
 #hours {background-image: url(../images/hours.png); background-repeat: no-repeat; background-position: 0 0; width: 360px; height: 124px; position: relative; display:block; text-align: center; text-indent: -999em;}
 
@@ -103,8 +103,8 @@ a#rb_button:hover {background-position: 0 -32px;}
 #home_message_off {width: 600px; height: 237px; position: relative; display:block; text-align: center; text-indent: -999em;}
 */
 
-#new_shit {background-image: url(../images/new_shit.gif); background-repeat: no-repeat; background-position: 0 3px; margin-left: 22px; padding-top:3px;}
-ul#new_shitlist {list-style: none; margin: 0 0 0 75px; padding: 0;}
+/*#new_shit {background-image: url(../images/new_shit.gif); background-repeat: no-repeat; background-position: 0 3px; margin-left: 22px; padding-top:3px;}
+ul#new_shitlist {list-style: none; margin: 0 0 0 75px; padding: 0;}*/
 
 /*#footer {clear:both; padding: 0 22px 0 22px;}
 #bottom_links {padding: 10px 0 10px 0; text-align:right;}
