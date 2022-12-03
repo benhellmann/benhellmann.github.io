@@ -8,43 +8,78 @@ main, aside {
 	text-shadow: 0px 0px 5px #000;
 	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
 }
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 main ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-main > ul  {
+main > ul > li {
+	margin-bottom: 1ex;
 	font-weight: bold;
+}
+#home_message {
+  font-family: 'Open Sans';
+  margin-bottom: 1em;
+  font-weight: 800;
+}
+#home_message h2 {
+  font-size: 5vw;
+  margin-bottom: 5px;
+}
+#home_message ul {
+	font-size: 4vw;
+}
+#home_message li {
+	display: inline;
+}
+#home_message li:after {
+	content:", ";
+}
+#home_message li:last-child:after {
+	content: "";
 }
 #new_shit {
 	display: inline-flex;
 }
 #new_shit h4 {
-  font-family: 'Anton';
+  font:25px/1 'Anton', sans-serif;
   color: #c00;
   background-color: #000;
   border: 2px solid #fff;
-  width: 56px;
-  height: 55px;
+  width: 50px;
+  height: 52px;
   text-align: center;
-  font-size: 25px;
   text-transform: lowercase;
-  font-weight: initial;
-  line-height: 1;
-  padding-top: 3px;
+  padding: 3px;
   margin-right: 15px;
 }
-main > ul > li {
-	margin-bottom: 1ex;
+#new_shit ul {
+	font-size: 90%;
 }
 @media only screen and (max-width: 600px) {
  	main > ul {font-size: 5vw;}
 }
 @media only screen and (min-width: 600px) {
  	main > ul:first-child {font-size: 0.9rem}
+ 	#home_message h2 {
+    font-size: 1.5rem;
+  }
+  #home_message ul {
+		font-size: 1.2em;
+	}
 }
 
 @media only screen and (min-width: 960px) {
-	background-size:100%
+	background-size:100%;
+	#home_message h2 {
+    font-size: 1.75rem;
+  }
+  #new_shit ul {
+		font-size: 1em;
+	}
 }
