@@ -1,0 +1,20 @@
+main > div {
+	display: flex;
+	flex-direction: column;
+}
+main h2 {
+	color:#c00;
+	font-size: 1.1em;
+}
+main p+p {margin-bottom: 0;padding-bottom: 0;}
+main ul {margin-bottom: 1em;}
+
+@media only screen and (min-width: 600px) {
+	main > div {
+		flex-direction: row;
+	}
+	main > div img {
+		max-width: 210px;
+		margin-right: 10px
+	}
+}
