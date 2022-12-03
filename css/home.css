@@ -24,8 +24,8 @@ main > ul > li {
 }
 #home_message {
   font-family: 'Open Sans';
-  margin-bottom: 1em;
   font-weight: 800;
+  margin-bottom: 1em;
 }
 #home_message h2 {
   font-size: 5vw;
@@ -73,7 +73,6 @@ main > ul > li {
 		font-size: 1.2em;
 	}
 }
-
 @media only screen and (min-width: 960px) {
 	background-size:100%;
 	#home_message h2 {

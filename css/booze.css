@@ -19,15 +19,6 @@ main ul {
 }
 /*desktop*/
 @media only screen and (min-width: 970px) {
-	/*main div:nth-of-type(1) {
-		width: 140px
-	}
-	main div:nth-of-type(2) {
-		width: 200px
-	}
-	main div:nth-of-type(3) {
-		width: 200px
-	}*/
 	main div, main div:nth-of-type(3) {
 		width: 33.3%
 	}
