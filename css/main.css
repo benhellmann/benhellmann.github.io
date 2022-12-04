@@ -71,6 +71,12 @@ body {
 a, a:visited {color: #c00;}
 a:hover {color: #09c;}
 h3, h4 {color:#c00;}
+header {
+  position: sticky;
+  top: 0;
+  background-color: #000;
+  padding-top: 10px;
+}
 #mobile-logo {
   margin-bottom: 1em;
 }
@@ -101,6 +107,7 @@ main ul {
 aside {
   font-weight: 800;
   font-family: "Open Sans", sans-serif;
+  padding-top: 10px;
 }
 aside p {
   font-size: 5vw;
@@ -241,7 +248,7 @@ footer li {
     margin: 0 auto;
     text-align: left;
     background-color: #000;
-    padding:10px;
+    padding:0 10px 10px 10px;
   }
 aside .logo {
   display: none;
@@ -328,6 +335,9 @@ aside .logo {
   #wrapper {
     max-width:908px;
     padding:18px 24px;
+  }
+  header {
+    padding-top: 0
   }
   aside p {
     font-size: 1.75rem
