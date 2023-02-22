@@ -1,11 +1,9 @@
 #wrapper {
 	background-image: url('../images/homeimage.png');
-	background-position: 50% 0;
+	background-position: 50% 4vh;
 	background-repeat: no-repeat;
-	background-size: 100%;
 }
 main, aside {
-	text-shadow: 0px 0px 5px #000;
 	text-shadow: 2px 2px 5px #000, -2px -2px 5px #000, 2px -2px 5px #000, -2px 2px 5px #000;
 }
 main {
@@ -65,6 +63,9 @@ main > ul > li {
  	main > ul {font-size: 5vw;}
 }
 @media only screen and (min-width: 600px) {
+	#wrapper {
+		background-position: 50% 0;
+	}
  	main > ul:first-child {font-size: 0.9rem}
  	#home_message h2 {
     font-size: 1.5rem;
