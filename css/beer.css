@@ -1,0 +1,11 @@
+
+main {display:flex;}
+main h3 {color:#fff}
+main p {margin-bottom: 1em;}
+main a {text-shadow: 0 0 0.1px #fff;}
+@media only screen and (min-width: 600px) {
+	main div {
+		width: 50%;
+		padding: 23px 10px 23px 0;
+	}
+}
